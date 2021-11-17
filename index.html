@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="Script/js.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="cover">
+      <!--Main container-->
+      <div class="main-contever">
+        <!--Main content section-->
+        <div class="main-contet-section">
+          <!--About me section-->
+          <div class="about-me-section">
+            <h2 class="about-me-profession">Front-end Developer</h2>
+            <h1 class="about-me-name">Bohdan Kravchenko</h1>
+
+            <p class="about-me-description">
+              Hard-working developer with a flair for creating elegant solutions in the least amount
+              of time. Team player person, and always want to move forward to develop my skills and
+              earn new achievements. I enjoy learning new technologies and follow the software
+              development trends.
+            </p>
+          </div>
+
+          <!--My project section-->
+          <div class="my-project-section">
+            <h3 class="main-content-title">Projects</h3>
+            <div class="my-project-list">
+              <!-- Todo list -->
+
+              <div class="todo" id="todo">
+                <button class="project-button" id="project-button" onclick="todo_change(this)">
+                  <h2>Todo_list</h2>
+                  <h3>Show more <img src="img/down.png" id="arrow_1" /></h3>
+                </button>
+
+                <div class="my-project-information">
+                  <h4>I was creating a todo list with ability to:</h4>
+                  <ul class="my-project-text">
+                    <li>Add and remove items from list</li>
+                    <li>Add description to items</li>
+                    <li>Check your item as done</li>
+                    <li>Open one of your items with full description in new window</li>
+                  </ul>
+                  <h4>Tools and technologies:</h4>
+                  <ul class="my-project-text">
+                    <li>HTML/CSS</li>
+                    <li>JS/React</li>
+                  </ul>
+
+                  <h4>
+                    Link:
+                    <a href="https://github.com/Bohdan97/todo_list.git" class="my-project-link"
+                      >https://github.com/Bohdan97/todo_list.git</a
+                    >
+                  </h4>
+                </div>
+              </div>
+
+              <!--  bike_booking-->
+
+              <div class="bike_booking" id="bike_booking">
+                <button class="project-button" id="project-button" onclick="bike_booking(this)">
+                  <h2>Bike_booking</h2>
+                  <h3>Show more <img src="img/down.png" id="arrow_2" /></h3>
+                </button>
+
+                <div class="my-project-information">
+                  <h4>I was creating admin page for bike booking with ability to:</h4>
+                  <ul class="my-project-text">
+                    <li>Add and remove bike from list</li>
+                    <li>Change bike status</li>
+                    <li>Check information about all bike</li>
+                  </ul>
+                  <h4>Tools and technologies:</h4>
+                  <ul class="my-project-text">
+                    <li>HTML/CSS</li>
+                    <li>JS/React</li>
+                    <li>Localforage</li>
+                  </ul>
+
+                  <h4>
+                    Link:
+                    <a href="https://github.com/Bohdan97/bike_booking.git" class="my-project-link"
+                      >https://github.com/Bohdan97/bike_booking.git</a
+                    >
+                  </h4>
+                </div>
+              </div>
+
+              <!-- food_list -->
+
+              <div class="food_list" id="food_list">
+                <button class="project-button" id="project-button" onclick="food_list(this)">
+                  <h2>Food_list</h2>
+                  <h3>Show more <img src="img/down.png" id="arrow_3" /></h3>
+                </button>
+
+                <div class="my-project-information">
+                  <h4>I was creating a food list with ability to:</h4>
+                  <ul class="my-project-text">
+                    <li>Add and remove items from list</li>
+                    <li>Open one of your items with full description in new window</li>
+                  </ul>
+                  <h4>Tools and technologies:</h4>
+                  <ul class="my-project-text">
+                    <li>HTML/CSS</li>
+                    <li>JS/React</li>
+                    <li>Localforage</li>
+                  </ul>
+
+                  <h4>
+                    Link:
+                    <a href="https://github.com/Bohdan97/food-list.git" class="my-project-link"
+                      >https://github.com/Bohdan97/food-list.git</a
+                    >
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--My education section-->
+          <div class="my-education-section">
+            <h3 class="main-content-title">Education</h3>
+
+            <!-- Collage -->
+            <div class="my-education-element">
+              <h3 class="orange">Music College named after S. Lyudkevych</h3>
+              <h4>Folk instruments</h4>
+              <p class="my-education-time">
+                September 2012 - June 2016 <span class="my-work-black">|</span> Lviv
+              </p>
+            </div>
+
+            <!-- Academy -->
+            <div class="my-education-element">
+              <h3 class="orange">National Music Academy named after M. Lysenko</h3>
+              <h4>Folk instruments</h4>
+              <p class="my-education-time">
+                September 2016 - June 2020 <span class="my-work-black">|</span> Lviv
+              </p>
+            </div>
+          </div>
+
+          <!-- Additional education (courses, trainings) -->
+          <div class="my-courses-section">
+            <h3 class="main-content-title">Additional education (courses, trainings)</h3>
+            <h3 class="orange">Prometheus</h3>
+            <h4>Foundations Web UI development 2020</h4>
+          </div>
+        </div>
+
+        <!--Sidebar section-->
+        <aside class="sidebar-section">
+          <img src="img/photo.jpg" alt="my photo" width="100%" />
+
+          <div class="contact-section">
+            <h3 class="sidebar-title">Contats</h3>
+            <div>
+              <span class="contact-type">C:</span>
+              <a class="contact-link" href="tel:+38 (093) 682 48 20">+38 (093) 682 48 20</a>
+            </div>
+            <div>
+              <span class="contact-type">E:</span>
+              <a class="contact-link" href="bogdankravchenko1997@gmail.com"
+                >bogdankravchenko1997@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="tsch-skill-section">
+            <h3 class="sidebar-title">Tech Skills</h3>
+            <ul class="tech-list">
+              <li class="tech-item"><span class="tech-item-class">HTML5</span></li>
+              <li class="tech-item"><span class="tech-item-class">CSS3</span></li>
+              <li class="tech-item"><span class="tech-item-class">SCSS</span></li>
+              <li class="tech-item"><span class="tech-item-class">GIT</span></li>
+              <li class="tech-item"><span class="tech-item-class">Javascript</span></li>
+              <li class="tech-item"><span class="tech-item-class">React.js</span></li>
+            </ul>
+          </div>
+          <div class="soft-section">
+            <h3 class="sidebar-title">Soft Skills</h3>
+            <ul class="tech-list">
+              <li class="tech-item"><span class="tech-item-class">Communication</span></li>
+              <li class="tech-item"><span class="tech-item-class">The ability to learn</span></li>
+              <li class="tech-item"><span class="tech-item-class">Empathy</span></li>
+              <li class="tech-item"><span class="tech-item-class">Teamwork</span></li>
+            </ul>
+          </div>
+          <div class="languages-section">
+            <h3 class="sidebar-title">Languages</h3>
+            <ul class="tech-list">
+              <li class="tech-item">
+                <span class="tech-item-class">Ukrainian</span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </li>
+              <li class="tech-item">
+                <span class="tech-item-class">English</span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </li>
+              <li class="tech-item">
+                <span class="tech-item-class">Russian</span>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <footer class="footer">
+        <p>© 2021 Lviv</p>
+      </footer>
+    </div>
+  </body>
+  <script type="text/javascript" src="script/js.js"></script>
+</html>
