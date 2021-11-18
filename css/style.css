@@ -68,7 +68,7 @@ body {
 }
 
 .about-me-description {
-  width: 400px;
+  width: 450px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -115,10 +115,13 @@ body {
 .my-project-information {
   border-radius: 10px;
   border: 1px solid #f0eeee;
-
   width: 100%;
   margin: 10px 0;
   padding: 20px;
+}
+
+button:hover {
+  background-color: #c7c7c7;
 }
 
 .my-project-information h4 {
@@ -168,7 +171,7 @@ body {
 }
 
 .my-courses-section h3 {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 /*sidebar section*/
@@ -245,4 +248,120 @@ body {
   text-align: center;
   padding: 14px;
   margin: 0;
+}
+
+.info-mobile {
+  display: none;
+}
+
+.light-gray {
+  color: #595959;
+}
+
+/* mobile 600px */
+@media (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-contever {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .cover {
+    width: 100%;
+    margin: 0;
+  }
+
+  .sidebar-section {
+    width: 100%;
+  }
+  .info-mobile {
+    display: block;
+    margin: 40px;
+  }
+  .about-me-profession {
+    color: rgb(185, 185, 185);
+    margin: 0;
+  }
+
+  .about-me-name {
+    margin-top: 15px;
+    font-size: 29px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+
+  .about-me-description {
+    width: 100%;
+    color: #b9b9b9;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+  }
+
+  .contact-section,
+  .tsch-skill-section,
+  .soft-section,
+  .languages-section {
+    margin: 30px 0 0 50px;
+  }
+
+  .about-me-section {
+    display: none;
+  }
+
+  .main-contet-section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .my-project-section {
+    margin: 40px;
+  }
+
+  .project-button {
+    margin: 0;
+    padding: 20px 0 20px 10px;
+  }
+
+  .project-button h3 {
+    margin: 0;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .my-project-information h4 {
+    overflow: hidden;
+    width: 90%;
+  }
+
+  .my-education-section {
+    margin: 40px;
+  }
+
+  .my-education-element h3 {
+    margin-top: 20px;
+  }
+
+  .my-education-element h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .my-courses-section {
+    margin: 40px;
+  }
+  .my-courses-section h3 {
+    margin-bottom: 15px;
+  }
 }

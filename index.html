@@ -46,7 +46,10 @@
               <div class="todo" id="todo">
                 <button class="project-button" id="project-button" onclick="todo_change(this)">
                   <h2>Todo_list</h2>
-                  <h3>Show more <img src="img/down.png" id="arrow_1" /></h3>
+                  <h3>
+                    <span class="mobile-hide" id="show_1">Show more</span>
+                    <img src="img/down.png" id="arrow_1" />
+                  </h3>
                 </button>
 
                 <div class="my-project-information">
@@ -77,7 +80,10 @@
               <div class="bike_booking" id="bike_booking">
                 <button class="project-button" id="project-button" onclick="bike_booking(this)">
                   <h2>Bike_booking</h2>
-                  <h3>Show more <img src="img/down.png" id="arrow_2" /></h3>
+                  <h3>
+                    <span class="mobile-hide" id="show_2">Show more</span>
+                    <img src="img/down.png" id="arrow_2" />
+                  </h3>
                 </button>
 
                 <div class="my-project-information">
@@ -108,7 +114,10 @@
               <div class="food_list" id="food_list">
                 <button class="project-button" id="project-button" onclick="food_list(this)">
                   <h2>Food_list</h2>
-                  <h3>Show more <img src="img/down.png" id="arrow_3" /></h3>
+                  <h3>
+                    <span class="mobile-hide" id="show_3">Show more</span>
+                    <img src="img/down.png" id="arrow_3" />
+                  </h3>
                 </button>
 
                 <div class="my-project-information">
@@ -142,7 +151,7 @@
             <!-- Collage -->
             <div class="my-education-element">
               <h3 class="orange">Music College named after S. Lyudkevych</h3>
-              <h4>Folk instruments</h4>
+              <h4 class="light-gray">Folk instruments</h4>
               <p class="my-education-time">
                 September 2012 - June 2016 <span class="my-work-black">|</span> Lviv
               </p>
@@ -151,7 +160,7 @@
             <!-- Academy -->
             <div class="my-education-element">
               <h3 class="orange">National Music Academy named after M. Lysenko</h3>
-              <h4>Folk instruments</h4>
+              <h4 class="light-gray">Folk instruments</h4>
               <p class="my-education-time">
                 September 2016 - June 2020 <span class="my-work-black">|</span> Lviv
               </p>
@@ -160,16 +169,27 @@
 
           <!-- Additional education (courses, trainings) -->
           <div class="my-courses-section">
-            <h3 class="main-content-title">Additional education (courses, trainings)</h3>
+            <h3 class="main-content-title">
+              Additional education <span class="mobile-hide">(courses, trainings)</span>
+            </h3>
             <h3 class="orange">Prometheus</h3>
-            <h4>Foundations Web UI development 2020</h4>
+            <h4 class="light-gray">Foundations Web UI development 2020</h4>
           </div>
         </div>
 
         <!--Sidebar section-->
         <aside class="sidebar-section">
           <img src="img/photo.jpg" alt="my photo" width="100%" />
+          <div class="info-mobile">
+            <h2 class="about-me-profession">Front-end Developer</h2>
+            <h1 class="about-me-name">Bohdan Kravchenko</h1>
 
+            <p class="about-me-description">
+              Hard-working developer and team player person. Always want to move forward to develop
+              my skills and earn new achievements. I enjoy learning new technologies and follow the
+              software development trends.
+            </p>
+          </div>
           <div class="contact-section">
             <h3 class="sidebar-title">Contats</h3>
             <div>
